@@ -1146,6 +1146,13 @@ textarea:focus-visible {
 }
 
 @media (max-width: 768px) {
+<<<<<<< HEAD
+=======
+    .container {
+        padding: 0 18px;
+    }
+
+>>>>>>> b676b12 (Initial website launch)
     .nav-toggle {
         display: flex;
     }
@@ -1154,12 +1161,20 @@ textarea:focus-visible {
         position: fixed;
         top: 0;
         right: -100%;
+<<<<<<< HEAD
         width: 280px;
+=======
+        width: min(82vw, 300px);
+>>>>>>> b676b12 (Initial website launch)
         height: 100vh;
         background: var(--navy-dark);
         flex-direction: column;
         align-items: flex-start;
+<<<<<<< HEAD
         padding: 80px 32px 32px;
+=======
+        padding: 80px 28px 32px;
+>>>>>>> b676b12 (Initial website launch)
         gap: 8px;
         transition: right 0.3s ease;
         box-shadow: -10px 0 30px rgba(0, 0, 0, 0.3);
@@ -1176,18 +1191,44 @@ textarea:focus-visible {
     }
 
     .hero {
+<<<<<<< HEAD
         padding: 100px 0 60px;
         min-height: auto;
     }
 
     .hero-stats {
         grid-template-columns: repeat(2, 1fr);
+=======
+        padding: 96px 0 56px;
+        min-height: auto;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+>>>>>>> b676b12 (Initial website launch)
     }
 
     .section {
         padding: 70px 0;
     }
 
+<<<<<<< HEAD
+=======
+    .section-header {
+        margin-bottom: 42px;
+    }
+
+>>>>>>> b676b12 (Initial website launch)
     .practice-grid {
         grid-template-columns: 1fr;
     }
@@ -1208,6 +1249,26 @@ textarea:focus-visible {
         grid-template-columns: 1fr;
     }
 
+<<<<<<< HEAD
+=======
+    .contact-card {
+        padding: 18px 16px;
+    }
+
+    .social-card {
+        align-items: flex-start;
+    }
+
+    .social-links {
+        gap: 8px;
+    }
+
+    .social-links a {
+        width: 40px;
+        height: 40px;
+    }
+
+>>>>>>> b676b12 (Initial website launch)
     .form-row {
         grid-template-columns: 1fr;
     }
@@ -1224,6 +1285,10 @@ textarea:focus-visible {
 
     .hero-cta {
         flex-direction: column;
+<<<<<<< HEAD
+=======
+        align-items: stretch;
+>>>>>>> b676b12 (Initial website launch)
     }
 
     .hero-cta .btn {
@@ -1242,8 +1307,27 @@ textarea:focus-visible {
 }
 
 @media (max-width: 480px) {
+<<<<<<< HEAD
     .hero h1 {
         font-size: 1.9rem;
+=======
+    .container {
+        padding: 0 16px;
+    }
+
+    .hero h1 {
+        font-size: 1.9rem;
+        line-height: 1.2;
+    }
+
+    .hero-description {
+        font-size: 0.97rem;
+        line-height: 1.7;
+    }
+
+    .stat-card {
+        padding: 18px 14px;
+>>>>>>> b676b12 (Initial website launch)
     }
 
     .stat-number {
@@ -1254,9 +1338,33 @@ textarea:focus-visible {
         padding: 28px 20px;
     }
 
+<<<<<<< HEAD
+=======
+    .contact-card,
+    .practice-card,
+    .highlight-card,
+    .skill-item,
+    .value-card {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+>>>>>>> b676b12 (Initial website launch)
     .portrait-badge {
         right: 8px;
         bottom: 12px;
         padding: 10px 14px;
     }
+<<<<<<< HEAD
+=======
+
+    .footer-contact p {
+        gap: 8px;
+    }
+
+    .nav-link,
+    .btn {
+        min-height: 44px;
+    }
+>>>>>>> b676b12 (Initial website launch)
 }
